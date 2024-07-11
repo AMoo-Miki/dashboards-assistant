@@ -23,7 +23,7 @@ import {
   EuiPanel,
   keys,
   EuiIcon,
-  EuiButtonIcon,
+  EuiSmallButtonIcon,
 } from '@elastic/eui';
 import React, { Children, isValidElement, useEffect, useRef, useState } from 'react';
 import { IncontextInsight as IncontextInsightInput } from '../../types';
@@ -295,7 +295,7 @@ export const IncontextInsight = ({ children }: IncontextInsightProps) => {
             </EuiFlexItem>
             <EuiFlexItem grow={false}>
               <div>
-                <EuiButtonIcon
+                <EuiSmallButtonIcon
                   title={i18n.translate('assistantDashboards.incontextInsight.closeAssistant', {
                     defaultMessage: 'Close assistant popover',
                   })}
