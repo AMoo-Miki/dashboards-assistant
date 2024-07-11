@@ -12,7 +12,7 @@ import {
   EuiFieldText,
   EuiFlexGroup,
   EuiFlexItem,
-  EuiFormRow,
+  EuiCompressedFormRow,
   EuiPopoverTitle,
   EuiText,
   EuiPopoverFooter,
@@ -200,9 +200,9 @@ export const IncontextInsight = ({ children }: IncontextInsightProps) => {
   const ChatPopoverBody: React.FC<{}> = ({}) => (
     <EuiFlexGroup>
       <EuiFlexItem grow={6}>
-        <EuiFormRow>
+        <EuiCompressedFormRow>
           <EuiFieldText placeholder="Ask a question" />
-        </EuiFormRow>
+        </EuiCompressedFormRow>
       </EuiFlexItem>
       <EuiFlexItem grow={false}>
         <EuiSmallButton
