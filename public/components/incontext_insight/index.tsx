@@ -9,7 +9,7 @@ import { i18n } from '@osd/i18n';
 import {
   EuiWrappingPopover,
   EuiSmallButton,
-  EuiFieldText,
+  EuiCompressedFieldText,
   EuiFlexGroup,
   EuiFlexItem,
   EuiCompressedFormRow,
@@ -201,7 +201,7 @@ export const IncontextInsight = ({ children }: IncontextInsightProps) => {
     <EuiFlexGroup>
       <EuiFlexItem grow={6}>
         <EuiCompressedFormRow>
-          <EuiFieldText placeholder="Ask a question" />
+          <EuiCompressedFieldText placeholder="Ask a question" />
         </EuiCompressedFormRow>
       </EuiFlexItem>
       <EuiFlexItem grow={false}>
